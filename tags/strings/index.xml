@@ -9,10 +9,10 @@
     <lastBuildDate>Sat, 25 Jun 2022 23:32:49 +0200</lastBuildDate><atom:link href="http://matepak.github.io/tags/strings/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Here Documents w powłokach Unix</title>
-      <link>http://matepak.github.io/posts/my-first-post/</link>
+      <link>http://matepak.github.io/posts/here-documents/</link>
       <pubDate>Sat, 25 Jun 2022 23:32:49 +0200</pubDate>
       
-      <guid>http://matepak.github.io/posts/my-first-post/</guid>
+      <guid>http://matepak.github.io/posts/here-documents/</guid>
       <description>Here Documents, Tutaj Dokumenty?Here Documents, ten dziwnie brzmiący w rodzimym języku zlepek słów, jest rodzajem przekierowania, umożliwiającym potraktowanie części kodu źródłowego jak pliku. Kolejne linie tekstu przekazywane są na wejście innych poleceń, np. cat, ssh, ftp. Tak jakby były wpisywane linia po lini. Występuje w wielu powłokach Linux, miedzy innymi: bash, zsh, sh. Podobne konstrukcje można też spotkać w językach programowania wyższego poziomu, np. Perl. Heredocs domyślnie zachowuje białe znaki, dlatego jest używany do zapisywania wieloliniowych literałów.</description>
     </item>
     

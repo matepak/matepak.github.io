@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Mateusz Szczupak</title>
+    <link>http://matepak.github.io/tags/</link>
+    <description>Recent content in Tags on Mateusz Szczupak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 25 Jun 2022 23:32:49 +0200</lastBuildDate><atom:link href="http://matepak.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>bash</title>
+      <link>http://matepak.github.io/tags/bash/</link>
+      <pubDate>Sat, 25 Jun 2022 23:32:49 +0200</pubDate>
+      
+      <guid>http://matepak.github.io/tags/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>heredocs</title>
+      <link>http://matepak.github.io/tags/heredocs/</link>
+      <pubDate>Sat, 25 Jun 2022 23:32:49 +0200</pubDate>
+      
+      <guid>http://matepak.github.io/tags/heredocs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linux</title>
+      <link>http://matepak.github.io/tags/linux/</link>
+      <pubDate>Sat, 25 Jun 2022 23:32:49 +0200</pubDate>
+      
+      <guid>http://matepak.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>literals</title>
+      <link>http://matepak.github.io/tags/literals/</link>
+      <pubDate>Sat, 25 Jun 2022 23:32:49 +0200</pubDate>
+      
+      <guid>http://matepak.github.io/tags/literals/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>scripting</title>
+      <link>http://matepak.github.io/tags/scripting/</link>
+      <pubDate>Sat, 25 Jun 2022 23:32:49 +0200</pubDate>
+      
+      <guid>http://matepak.github.io/tags/scripting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>stdio</title>
+      <link>http://matepak.github.io/tags/stdio/</link>
+      <pubDate>Sat, 25 Jun 2022 23:32:49 +0200</pubDate>
+      
+      <guid>http://matepak.github.io/tags/stdio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>strings</title>
+      <link>http://matepak.github.io/tags/strings/</link>
+      <pubDate>Sat, 25 Jun 2022 23:32:49 +0200</pubDate>
+      
+      <guid>http://matepak.github.io/tags/strings/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

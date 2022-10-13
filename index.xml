@@ -26,7 +26,7 @@
 Example Usage:GET api.sdodata.com/v1/latest [ { &amp;#34;date&amp;#34;: &amp;#34;&amp;#34;, &amp;#34;utcTime&amp;#34;: &amp;#34;&amp;#34;, &amp;#34;resolution&amp;#34;: &amp;#34;2048&amp;#34;, &amp;#34;wavelength&amp;#34;: &amp;#34;0094&amp;#34;, &amp;#34;url&amp;#34;: &amp;#34;https://sdo.gsfc.nasa.gov/assets/img/latest/latest_2048_0094.jpg&amp;#34; }, { &amp;#34;date&amp;#34;: &amp;#34;&amp;#34;, &amp;#34;utcTime&amp;#34;: &amp;#34;&amp;#34;, &amp;#34;resolution&amp;#34;: &amp;#34;2048&amp;#34;, &amp;#34;wavelength&amp;#34;: &amp;#34;0131&amp;#34;, &amp;#34;url&amp;#34;: &amp;#34;https://sdo.gsfc.nasa.gov/assets/img/latest/latest_2048_0131.jpg&amp;#34; }, ... ] GitHub: SolarObservatoryAPI
 WallrndSimple comand line wallpaper changer.
 GitHub: Wallrnd
-AnnsiclockTerminal clock writed in node inspired by tty-clock by Martin Duquesnoy xorg62@gmail.</description>
+AnsiclockTerminal clock writed in node inspired by tty-clock by Martin Duquesnoy xorg62@gmail.</description>
     </item>
     
   </channel>

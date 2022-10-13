@@ -16,5 +16,18 @@
       <description>Here Documents, Tutaj Dokumenty?Here Documents, ten dziwnie brzmiący w rodzimym języku zlepek słów, jest rodzajem przekierowania, umożliwiającym potraktowanie części kodu źródłowego jak pliku. Kolejne linie tekstu przekazywane są na wejście innych poleceń, np. cat, ssh, ftp. Tak jakby były wpisywane linia po lini. Występuje w wielu powłokach Linux, miedzy innymi: bash, zsh, sh. Podobne konstrukcje można też spotkać w językach programowania wyższego poziomu, np. Perl. Heredocs domyślnie zachowuje białe znaki, dlatego jest używany do zapisywania wieloliniowych literałów.</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>http://matepak.github.io/projects/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://matepak.github.io/projects/</guid>
+      <description>My ProjectsSolar Dynamics Observatory Data REST APIREST API for all public data of the Solar Dynamics Observatory
+Example Usage:GET api.sdodata.com/v1/latest [ { &amp;#34;date&amp;#34;: &amp;#34;&amp;#34;, &amp;#34;utcTime&amp;#34;: &amp;#34;&amp;#34;, &amp;#34;resolution&amp;#34;: &amp;#34;2048&amp;#34;, &amp;#34;wavelength&amp;#34;: &amp;#34;0094&amp;#34;, &amp;#34;url&amp;#34;: &amp;#34;https://sdo.gsfc.nasa.gov/assets/img/latest/latest_2048_0094.jpg&amp;#34; }, { &amp;#34;date&amp;#34;: &amp;#34;&amp;#34;, &amp;#34;utcTime&amp;#34;: &amp;#34;&amp;#34;, &amp;#34;resolution&amp;#34;: &amp;#34;2048&amp;#34;, &amp;#34;wavelength&amp;#34;: &amp;#34;0131&amp;#34;, &amp;#34;url&amp;#34;: &amp;#34;https://sdo.gsfc.nasa.gov/assets/img/latest/latest_2048_0131.jpg&amp;#34; }, ... ] GitHub: SolarObservatoryAPI
+WallrndSimple comand line wallpaper changer.
+GitHub: Wallrnd
+AnnsiclockTerminal clock writed in node inspired by tty-clock by Martin Duquesnoy xorg62@gmail.</description>
+    </item>
+    
   </channel>
 </rss>

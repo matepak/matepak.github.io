@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>NoteTaking on Mateusz Szczupak</title>
+    <link>http://matepak.github.io/tags/notetaking/</link>
+    <description>Recent content in NoteTaking on Mateusz Szczupak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 05 Apr 2023 23:00:31 +0200</lastBuildDate><atom:link href="http://matepak.github.io/tags/notetaking/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Using Obsidian for NoteTaking and KnowledgeManagement</title>
+      <link>http://matepak.github.io/posts/obsidian/</link>
+      <pubDate>Wed, 05 Apr 2023 23:00:31 +0200</pubDate>
+      
+      <guid>http://matepak.github.io/posts/obsidian/</guid>
+      <description>Note-taking and knowledge management are essential skills for anyone who wants to stay organized and productive. With so much information available at our fingertips, it can be challenging to keep track of everything we need to remember. Fortunately, there are many tools available to help us manage our notes and ideas, and one of the most popular is Obsidian.
+Getting started with ObsidianThe first step in using Obsidian is to download and install the app.</description>
+    </item>
+    
+  </channel>
+</rss>

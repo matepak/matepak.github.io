@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mateusz Szczupak - CV</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+        :root {
+            --cbr-flks-yellow: #ffcd02;
+            --cbr-flks-dark-grey: #3c3d38;
+            --cbr-flks-light-grey: #f5f6f5;
+            --cbr-flks-white: #fff;
+        }
+
+        body {
+            font-family: Poppins, sans-serif;
+            font-weight: 400;
+            line-height: 1.6;
+            color: var(--cbr-flks-dark-grey);
+            background-color: var(--cbr-flks-light-grey);
+            margin: 0;
+            padding: 20px;
+        }
+
+        .newspaper {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: var(--cbr-flks-white);
+            padding: 40px;
+            box-shadow: 0 0 20px rgba(60, 61, 56, 0.1);
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-bottom: 3px solid var(--cbr-flks-yellow);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        .header-text {
+            flex: 1;
+        }
+
+        .photo-container {
+            width: 150px;
+            height: 200px;
+            border: 2px solid var(--cbr-flks-yellow);
+            margin-left: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: var(--cbr-flks-light-grey);
+            overflow: hidden;
+        }
+
+        .photo-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        h1 {
+            font-family: 'Popins', sans-serif;
+            font-size: 48px;
+            margin: 0;
+            color: var(--cbr-flks-dark-grey);
+        }
+
+        .subheading {
+            font-style: italic;
+            margin-top: 10px;
+            color: var(--cbr-flks-yellow);
+            font-size: 1.2em;
+        }
+
+        .columns {
+            display: flex;
+            gap: 40px;
+        }
+
+        .main-column {
+            flex: 2;
+        }
+
+        .side-column {
+            flex: 1;
+            background-color: var(--cbr-flks-light-grey);
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        h2 {
+            font-family: Popins, sans-serif;
+            font-size: 24px;
+            border-bottom: 2px solid var(--cbr-flks-yellow);
+            padding-bottom: 5px;
+            color: var(--cbr-flks-dark-grey);
+        }
+
+        .job {
+            margin-bottom: 25px;
+            padding-left: 15px;
+            border-left: 3px solid var(--cbr-flks-yellow);
+        }
+
+        .job-title {
+            font-weight: 600;
+            font-size: 18px;
+            margin-bottom: 5px;
+            color: var(--cbr-flks-dark-grey);
+        }
+
+        .job-date {
+            font-style: italic;
+            color: var(--cbr-flks-dark-grey);
+            opacity: 0.7;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            padding-left: 20px;
+            margin-top: 10px;
+        }
+
+        .contact-info p {
+            margin: 10px 0;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+        }
+
+        .skill,
+        .skill-soft {
+            background-color: var(--cbr-flks-yellow);
+            color: var(--cbr-flks-dark-grey);
+            padding: 5px 10px;
+            border-radius: 3px;
+            font-size: 0.9em;
+            font-weight: 600;
+        }
+
+        .skill-soft {
+            background-color: var(--cbr-flks-dark-grey);
+            color: var(--cbr-flks-yellow);
+        }
+
+        a {
+            color: var(--cbr-flks-dark-grey);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: var(--cbr-flks-yellow);
+        }
+
+        @media (max-width: 768px) {
+            .header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .photo-container {
+                margin-left: 0;
+                margin-top: 20px;
+            }
+
+            .columns {
+                flex-direction: column;
+            }
+
+            .side-column {
+                margin-top: 30px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="newspaper">
+        <header class="header">
+            <div class="header-text">
+                <h1><span style="color: #ffcd02;">></span>Mateusz Szczupak_</h1>
+                <p class="subheading">_Profesjonalna obsługa klienta</p>
+            </div>
+            <div class="photo-container">
+                <img src="./1680452844041.jpg" alt="Mateusz Szczupak" />
+            </div>
+        </header>
+
+        <div class="columns">
+            <div class="main-column">
+                <h2>Doświadczenie zawodowe</h2>
+
+                <article class="job">
+                    <h3 class="job-title">Doradca Handlowy</h3>
+                    <p class="job-date">2015-03 - obecnie</p>
+                    <p>Castorama Polska, Lubin</p>
+                    <ul>
+                        <li>Profesjonalna obsługa klienta i doradztwo w zakresie produktów</li>
+                        <li>Efektywna współpraca z działem sprzedaży w celu osiągnięcia celów biznesowych</li>
+                        <li>Utrzymywanie wysokich standardów wizualnych w sklepie</li>
+                    </ul>
+                </article>
+
+                <article class="job">
+                    <h3 class="job-title">Asystent ds. Standardów Sklepowych</h3>
+                    <p class="job-date">2013-10 - 2015-03</p>
+                    <p>Tesco Polska, Lubin</p>
+                    <ul>
+                        <li>Implementacja i monitorowanie standardów komunikacji marketingowej</li>
+                        <li>Tworzenie atrakcyjnych materiałów reklamowych</li>
+                        <li>Zarządzanie i aktualizacja różnorodnych form komunikacji marketingowej</li>
+                    </ul>
+                </article>
+
+                <article class="job">
+                    <h3 class="job-title">Kierownik ds. Kontroli Cen</h3>
+                    <p class="job-date">2013-06 - 2013-09</p>
+                    <p>Tesco Polska, Lubin</p>
+                    <ul>
+                        <li>Kompleksowe zarządzanie działem kontroli cen</li>
+                        <li>Optymalizacja procesów i procedur w celu zwiększenia efektywności</li>
+                    </ul>
+                </article>
+
+                <article class="job">
+                    <h3 class="job-title">Lider Zespołu</h3>
+                    <p class="job-date">2012-11 - 2013-06</p>
+                    <p>Tesco Polska, Lubin</p>
+                    <ul>
+                        <li>Wdrażanie i nadzór nad przestrzeganiem procedur operacyjnych</li>
+                        <li>Prowadzenie szkoleń dla pracowników w celu podnoszenia ich kompetencji</li>
+                        <li>Koordynacja procesu implementacji systemu elektronicznych etykiet</li>
+                    </ul>
+                </article>
+
+                <article class="job">
+                    <h3 class="job-title">Pracownik ds. Cen</h3>
+                    <p class="job-date">2007-08 - 2012-11</p>
+                    <p>Tesco Polska, Lubin</p>
+                    <ul>
+                        <li>Zarządzanie systemami informatycznymi i rozwiązywanie problemów technicznych</li>
+                        <li>Zapewnienie integralności danych w różnych systemach operacyjnych</li>
+                        <li>Koordynacja procesów związanych z legalizacją wag i inwentaryzacją</li>
+                        <li>Wsparcie techniczne dla użytkowników i współpraca z działem IT</li>
+                    </ul>
+                </article>
+
+                <h2>Współpraca i inne zlecenia</h2>
+                <article class="job">
+                    <h3 class="job-title">Centrum Kultury "Muza" w Lubinie</h3>
+                    <ul>
+                        <li>Administracja WordPress</li>
+                        <li>Regularna aktualizacja i optymalizacja strony internetowej</li>
+                    </ul>
+                </article>
+
+                <article class="job">
+                    <h3 class="job-title">Stowarzyszenie Fabryka Inicjatyw</h3>
+                    <ul>
+                        <li>Rozwiązywanie problemów technicznych związanych z WordPress</li>
+                        <li>Optymalizacja wydajności i bezpieczeństwa strony</li>
+                    </ul>
+                </article>
+            </div>
+
+            <aside class="side-column">
+                <h2>Kontakt</h2>
+                <div class="contact-info">
+                    <p><i class="fas fa-phone"></i> 530-141-366</p>
+                    <p><i class="fas fa-envelope"></i> <a
+                            href="mailto:mateusz.szczupak@outlook.com">mateusz.szczupak@outlook.com</a></p>
+                    <p><i class="fab fa-linkedin"></i> <a
+                            href="https://www.linkedin.com/in/mateusz-szczupak/">mateusz-szczupak</a></p>
+                    <p><i class="fab fa-github"></i> <a href="https://github.com/matepak">matepak</a></p>
+                    <p><i class="fas fa-globe"></i> <a href="https://matepak.github.io">matepak.github.io</a></p>
+                    <p><i class="fas fa-globe"></i> <a href="https://nieznany.lubin.pl/">nieznany.lubin.pl</a></p>
+                </div>
+
+                <h2>Umiejętności</h2>
+                <div class="skills">
+                    <span class="skill-soft">Samodzielność</span>
+                    <span class="skill-soft">Organizacja pracy</span>
+                    <span class="skill-soft">Zaangażowanie</span>
+                    <span class="skill-soft">Obsługa klienta</span>
+                    <span class="skill-soft">Rozwiązywanie problemów</span>
+                    <span class="skill-soft">Praca w zespole</span>
+                    <span class="skill-soft">Kreatywność</span>
+                    <span class="skill-soft">Inicjatywa</span>
+                    <span class="skill">Sieci komputerowe</span>
+                    <span class="skill">WordPress</span>
+                    <span class="skill">JavaScript</span>
+                    <span class="skill">HTML</span>
+                    <span class="skill">CSS</span>
+                    <span class="skill">SQL</span>
+                    <span class="skill">PowerShell</span>
+                    <span class="skill">Bash</span>
+                    <span class="skill">Windows</span>
+                    <span class="skill">Linux</span>
+                    <span class="skill">Docker</span>
+                    <span class="skill">Git</span>
+                    <span class="skill">Pakiet Office</span>
+                    <span class="skill">Microsoft Visual Studio</span>
+                    <span class="skill">Adobe Photoshop</span>
+                    <span class="skill">CorelDRAW</span>
+                    <span class="skill">Microsoft Visio</span>
+                    <span class="skill">Apache HTTP Server</span>
+                </div>
+
+                <h2>Języki obce</h2>
+                <p>Język angielski - poziom umożliwiający czytanie dokumentacji.</p>
+
+                <h2>Wykształcenie</h2>
+                <article class="job">
+                    <h3 class="job-title">Studia inżynierskie, Informatyka</h3>
+                    <p class="job-date">2016-09 - 2020-04</p>
+                    <p>Uczelnia Jana Wyżykowskiego, Polkowice</p>
+                </article>
+            </aside>
+        </div>
+    </div>
+</body>
+
+</html>

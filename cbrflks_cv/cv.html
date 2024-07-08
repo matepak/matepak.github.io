@@ -33,6 +33,7 @@
             background-color: var(--cbr-flks-white);
             padding: 40px;
             box-shadow: 0 0 20px rgba(60, 61, 56, 0.1);
+            animation: fadeIn 1.5s ease-in;
         }
 
         .header {
@@ -42,6 +43,7 @@
             border-bottom: 3px solid var(--cbr-flks-yellow);
             padding-bottom: 20px;
             margin-bottom: 30px;
+            animation: slideInLeft 1s ease-in-out;
         }
 
         .header-text {
@@ -58,6 +60,7 @@
             justify-content: center;
             background-color: var(--cbr-flks-light-grey);
             overflow: hidden;
+            transition: transform 0.3s ease;
         }
 
         .photo-container img {
@@ -66,11 +69,16 @@
             object-fit: cover;
         }
 
+        .photo-container:hover {
+            transform: scale(1.1);
+        }
+
         h1 {
             font-family: 'Popins', sans-serif;
             font-size: 48px;
             margin: 0;
             color: var(--cbr-flks-dark-grey);
+            animation: fadeInDown 1s ease-in-out;
         }
 
         .subheading {
@@ -78,6 +86,7 @@
             margin-top: 10px;
             color: var(--cbr-flks-yellow);
             font-size: 1.2em;
+            animation: fadeInUp 1s ease-in-out;
         }
 
         .columns {
@@ -87,6 +96,7 @@
 
         .main-column {
             flex: 2;
+            animation: slideInRight 1.5s ease-in-out;
         }
 
         .side-column {
@@ -94,6 +104,7 @@
             background-color: var(--cbr-flks-light-grey);
             padding: 20px;
             border-radius: 5px;
+            animation: slideInLeft 1.5s ease-in-out;
         }
 
         h2 {
@@ -102,12 +113,14 @@
             border-bottom: 2px solid var(--cbr-flks-yellow);
             padding-bottom: 5px;
             color: var(--cbr-flks-dark-grey);
+            animation: fadeIn 1s ease-in;
         }
 
         .job {
             margin-bottom: 25px;
             padding-left: 15px;
             border-left: 3px solid var(--cbr-flks-yellow);
+            animation: fadeIn 1s ease-in;
         }
 
         .job-title {
@@ -115,6 +128,11 @@
             font-size: 18px;
             margin-bottom: 5px;
             color: var(--cbr-flks-dark-grey);
+            transition: color 0.3s ease;
+        }
+
+        .job-title:hover {
+            color: var(--cbr-flks-yellow);
         }
 
         .job-date {
@@ -148,11 +166,22 @@
             border-radius: 3px;
             font-size: 0.9em;
             font-weight: 600;
+            transition: background-color 0.3s ease, color 0.3s ease;
         }
 
         .skill-soft {
             background-color: var(--cbr-flks-dark-grey);
             color: var(--cbr-flks-yellow);
+        }
+
+        .skill:hover {
+            background-color: var(--cbr-flks-dark-grey);
+            color: var(--cbr-flks-yellow);
+        }
+
+        .skill-soft:hover {
+            background-color: var(--cbr-flks-yellow);
+            color: var(--cbr-flks-white);
         }
 
         a {
@@ -182,6 +211,64 @@
 
             .side-column {
                 margin-top: 30px;
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes slideInLeft {
+            from {
+                opacity: 0;
+                transform: translateX(-20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        @keyframes slideInRight {
+            from {
+                opacity: 0;
+                transform: translateX(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateX(0);
             }
         }
     </style>
